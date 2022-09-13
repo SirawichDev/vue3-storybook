@@ -1,0 +1,56 @@
+.font-primary-color {
+  color: $primary;
+}
+.font-secondary-color {
+  color: $secondary;
+}
+
+.font-mini {
+  font-size: $font-size-small;
+}
+
+.font-small {
+  font-size: $h6-size;
+}
+
+.font-smaller {
+  font-size: $h5-size;
+}
+
+.font-larger {
+  font-size: $h4-size;
+}
+
+.font-large {
+  font-size: $h3-size;
+}
+
+.font-big {
+  font-size: $h2-size;
+}
+
+.font-weight-bold {
+  font-weight: $font-weight-bold;
+}
+.font-weight-semibold {
+  font-weight: $font-weight-semibold;
+}
+.font-weight-normal {
+  font-weight: $font-weight-normal;
+}
+.font-weight-light {
+  font-weight: $font-weight-light;
+}
+
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}

@@ -1,0 +1,55 @@
+.header {
+  &__area {
+    display: flex;
+    flex-direction: column;
+    .nav-container {
+      margin: 20px;
+      padding: 20px;
+      border-radius: 40px;
+      display: flex;
+      align-items: center;
+      background: $primary;
+      color: $white;
+      height: 65px;
+      nav {
+        display: flex;
+        width: 30%;
+        .menu {
+          display: flex;
+          flex-basis: 20%;
+          gap: 20px;
+          margin-left: 20px;
+          margin-right: 20px;
+          li {
+            font-size: $h1-size;
+            list-style: none;
+            &:hover {
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.logo {
+  display: flex;
+  flex-basis: 50%;
+  .content-white {
+    display: flex;
+    align-items: center;
+    font-weight: $font-weight-bold;
+    font-size: 5rem;
+  }
+
+  .circle-pink {
+    height: 3vmin;
+    width: 3vmin;
+    background: $secondary;
+    border-radius: 100%;
+    margin-bottom: 5vmin;
+  }
+}
+@media screen {
+
+}
