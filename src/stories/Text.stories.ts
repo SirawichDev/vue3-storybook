@@ -5,10 +5,7 @@ export default {
   title: 'Text',
   component: Text,
   argTypes: {
-    fSize: {
-      control: { type: 'select' },
-      options: ['small', 'medium', 'large'],
-    },
+    fSize: { control: { type: 'number', min:1, max:30, step: 2 } },
     variant: {
       control: { type: 'select' },
       options: ['primary', 'secondary'],
@@ -29,6 +26,7 @@ Primary.args = {
   variant: Variant.PRIMARY,
   title: 'THIS IS PRIMARY TITLE',
   class: 'content-white',
+  fSize: 'small'
 };
 
 export const Secondary = Template.bind({});
@@ -37,4 +35,5 @@ Secondary.args = {
   variant: Variant.SECONDARY,
   title: 'THIS IS SECONDARY TITLE',
   class: 'content-white',
+  fSize: 'small'
 };

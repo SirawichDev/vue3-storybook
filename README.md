@@ -14,4 +14,6 @@ npm run storybook
 npm run dev:vite
 ```
 
+![Screenshot](./for-readme.gif)
+
 # By Sirawich Voungchuy. Enjoy krub ;)
